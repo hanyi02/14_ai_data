@@ -11,11 +11,9 @@
 
 #  @데코레이터 사용해서 50000 포트로 만나서 반갑습니다 실행 시키기
 
-@app user (userid??????)-> 뭔소리야
-
-# 플라스크 뒤에 콤마 적으면 렌더 템플릿? 잇음
-import Flask.
-문자 대신 HTML 넣어보셈
-폴더명 반드시 html 어쩌구 로 만들어야함
-index.html  하면 ~ 자동완성 됨 
-html 구조 한 번 알아보기 -> body 밖에 header 있고 그런 거
+# # 플라스크 뒤에 콤마 적으면 렌더 템플릿? 잇음
+# import Flask.
+# 문자 대신 HTML 넣어보셈
+# 폴더명 반드시 html 어쩌구 로 만들어야함
+# index.html  하면 ~ 자동완성 됨 
+# html 구조 한 번 알아보기 -> body 밖에 header 있고 그런 거
