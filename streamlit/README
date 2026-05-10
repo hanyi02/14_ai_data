@@ -38,7 +38,7 @@ seaborn.histplot() 사용 time 컬럼의 분포 시각화
 
 ========> python -m streamlit run streamlit\test0508.py
 ========> http://localhost:8501
-
+ 
 
 =====================================================================================
 
