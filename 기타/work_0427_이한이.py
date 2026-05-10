@@ -126,8 +126,8 @@ print(new_students.loc['김민수'])
 print(new_students.loc['최유진'])
 print(new_students.loc[['김민수', '박지훈']])
 print(new_students.loc['이서연':'최유진'])
-
-
+ 
+ 
 # =========================
 # 문제 12. DataFrame 행과 열 선택하기
 # =========================

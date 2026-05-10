@@ -185,7 +185,7 @@ def result():
     print(f"2. 좌우 산점도 개수 비교: {score2}점 / 50점")
     print(f"\n총점: {score1 + score2}점 / {(18 - N_BACK) * SCORE_PER_HIT + 50}점")
     print()
-
+  
 # =======================
 # 메인 메뉴
 # =========================
