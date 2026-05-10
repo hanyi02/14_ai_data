@@ -10,4 +10,4 @@ data1, data2= -9, 0
 print(f'{data1}>>> bool(data1): {bool(data1)}')
 print(f'{data2}>>> bool(data2): {bool(data2)}')
 
-print(bool([[]]))
+print(bool([[]])) 
