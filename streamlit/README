@@ -1,0 +1,55 @@
+주요 기능
+
+1. 데이터 불러오기 및 병합 ---------------------------------
+두 개의 JSON 파일을 pandas로 불러온 뒤, person_id 컬럼을 기준으로 병합
+df = pd.merge(df_a, df_b, on="person_id", how="inner")
+병합 과정에서 제외된 데이터 개수도 함께 계산
+
+2. 데이터 요약 표시 ---------------------------------
+Streamlit=> metric 기능 사용
+- df_a 데이터 개수
+- df_b 데이터 개수
+- 병합 후 데이터 개수
+- 병합 과정에서 제외된 데이터 개수
+
+3. 심박출률과 나이의 관계 시각화 ---------------------------------
+seaborn.jointplot() 사용-> ejection_fraction과 age의 관계 시각화 
+- x축: ejection_fraction
+- y축: age
+- 색상 기준: DEATH_EVENT
+
+
+4. 흡연 여부에 따른 혈소판 분포 시각화 ---------------------------------
+Streamlit radio 기능 사용->흡연 여부 선택 
+선택한 조건에 따라 데이터 필터랑-> seaborn.violinplot() 사용
+사망 여부와 혈소판 수치 관계 시각화 
+- x축: DEATH_EVENT
+- y축: platelets
+- hue: smoking
+
+5. ejection_fraction 범위별 time 분포 시각화 ---------------------------------
+
+Streamlit의 slider 기능 사용=> ejection_fraction 범위 선택 
+seaborn.histplot() 사용 time 컬럼의 분포 시각화 
+- x축: time
+- bins: 20
+- 색상 기준: DEATH_EVENT
+- 실행 방법
+
+========> python -m streamlit run streamlit\test0508.py
+========> http://localhost:8501
+
+
+=====================================================================================
+
+한글 깨짐 해결
+plt.rcParams["font.family"] = "Malgun Gothic"
+plt.rcParams["axes.unicode_minus"] = False
+
+
+프로젝트 결과>>
+
+- 심박출률과 나이의 관계
+- 사망 여부에 따른 데이터 분포
+- 흡연 여부에 따른 혈소판 수치 차이
+- 심박출률 범위에 따른 생존 기간 분포
