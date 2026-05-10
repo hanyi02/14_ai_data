@@ -23,7 +23,7 @@ print(f"result: {result}, {type(result)}")
 
 result= dict(result)
 print(f"result: {result}, {type(result)}")
-
+ 
 # 단, dict는 2개까지만 가능, 2개 이상은 K:V로 변환 불가능
 result= dict(result)
 print(f"result: {result}, {type(result)}")

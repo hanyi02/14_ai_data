@@ -16,3 +16,4 @@ print(f"dataset: {len(dataSet)}개, {type(dataSet)}, {dataSet}")
 
 dataSet={1, 12,5,6, 99}
 print(f"dataset: {len(dataSet)}개, {type(dataSet)}, {dataSet}")
+ 

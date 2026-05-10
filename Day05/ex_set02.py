@@ -21,7 +21,7 @@ print(f"dataset: {len(dataSet)}개, {type(dataSet)}, {dataSet}")
 # new_data= dataSet+ {11, 33, 9, 7}
 # print(f"new_data: {len(new_data)}개, {type(new_data)}, {new_data}") 
 
-
+ 
 
 ## -------------------------------------------
 ## 연산자: 산술 연산자 곱셈* => set* int : 미지원 기능

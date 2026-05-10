@@ -95,4 +95,4 @@ print(f"원소: {len(strDict)}개, {strDict}")
 
 ## (4) 모든 원소 삭제 메서드: clear()=> 빈 dict 남음!
 strDict.clear()
-print(f"원소: {len(strDict)}개, {strDict}")
+print(f"원소: {len(strDict)}개, {strDict}") 

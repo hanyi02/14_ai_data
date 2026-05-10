@@ -336,7 +336,7 @@ print('높은 점수:', max_score)
 # [테스트용 데이터] - 실제 제출 시에는 input()을 사용하세요.
 korean, english, mathematics, science = 76, 82, 89, 84 
 
-
+ 
 
 def get_min_max_score(*args):
     return min(args), max(args)
